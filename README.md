@@ -1,4 +1,6 @@
-# CS21Aassignment02
+# CS21Aassignment02 
+# title: translate
+# language: python
 This program takes in a string from the user. It translates it into a "secret"
 code. The code is: if a word starts with a vowel, "way" is appended to the end
 of the word. Otherwise the first letter is cut from the front of the word and
