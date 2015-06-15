@@ -26,14 +26,15 @@ def starts_with_vowel(word):
     else:
         return False
 
-
 def encode(word):
     """
     # translate a single word to the secret language
     # call starts with vowel to decide which pattern to follow
+    # if a vowel add "way"
+    # if a consenant cut character one, add it to the end then add "ar"
     """
     if starts_with_vowel(word):
-        word = word + 'way'
+        word =+ 'way'
         return word
     else:
         word = word[1:] + word[:1] + 'ar'
